@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CMonitorProtocol">
+      <UniqueIdentifier>{340aa594-0e6d-4a62-a7bc-73ce4ed9c006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMyCriticalSection">
+      <UniqueIdentifier>{e2db2697-519c-4066-9aba-5e148260deaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMyTime">
+      <UniqueIdentifier>{96fa430d-4139-48f7-ad03-0b49d996f77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CThread">
+      <UniqueIdentifier>{f0d1f22f-4736-4de0-86da-21b3e883c942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDPTCP">
+      <UniqueIdentifier>{07629858-f48e-488a-b42a-96bc9769aaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCV_Lib">
+      <UniqueIdentifier>{2d7cd0e2-0a9f-42d0-9d49-46f9dd05fc1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{45ed237e-0437-4e3a-87de-34100ad4a8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CScreenshot">
+      <UniqueIdentifier>{cfa61444-56fd-47fd-b2ba-464b9d951c79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="20170316_RemoteControlServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="20170316_RemoteControlServerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonitorProtocol\CMonitorProtocol.h">
+      <Filter>CMonitorProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyCriticalSection\CMyCriticalSection.hpp">
+      <Filter>CMyCriticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTime\CMyTime.h">
+      <Filter>CMyTime</Filter>
+    </ClInclude>
+    <ClInclude Include="CThread\CThread.h">
+      <Filter>CThread</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPTCP\UDPTCP.h">
+      <Filter>UDPTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="CScreenshot\CScreenshot.h">
+      <Filter>CScreenshot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="20170316_RemoteControlServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="20170316_RemoteControlServerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonitorProtocol\CMonitorProtocol.cpp">
+      <Filter>CMonitorProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTime\CMyTime.cpp">
+      <Filter>CMyTime</Filter>
+    </ClCompile>
+    <ClCompile Include="CThread\CThread.cpp">
+      <Filter>CThread</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPTCP\UDPTCP.cpp">
+      <Filter>UDPTCP</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="CScreenshot\CScreenshot.cpp">
+      <Filter>CScreenshot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="20170316_RemoteControlServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My20170316_RemoteControlServer.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\20170316_RemoteControlServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_calib3d320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_core320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_features2d320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_flann320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_highgui320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_imgcodecs320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_imgproc320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_ml320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_objdetect320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_photo320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_shape320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_stitching320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_superres320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_ts320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_video320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_videoio320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+    <Library Include="C:\Program Files\opencv\build\lib\Debug\opencv_videostab320d.lib">
+      <Filter>OpenCV_Lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

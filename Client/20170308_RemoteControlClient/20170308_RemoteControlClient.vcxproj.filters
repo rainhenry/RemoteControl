@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CKeyRecv">
+      <UniqueIdentifier>{f9e0ece9-f5b7-4655-aa68-c131a25a62bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{9abc71ac-fd45-4ed6-a8a5-4d35a396da64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMyTime">
+      <UniqueIdentifier>{19cae055-8bde-40d0-999e-138d8f28dfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMyCriticalSection">
+      <UniqueIdentifier>{41852d4c-ee9a-42a7-9f2a-59f9105253b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CThread">
+      <UniqueIdentifier>{a287b19e-b344-48bd-9514-4a9fde3e8a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDPTCP">
+      <UniqueIdentifier>{f211ba5f-74a3-48c9-8b53-a3433fc0f0e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CBrowseDlg">
+      <UniqueIdentifier>{83b63c7a-2804-43af-b036-9c30325d27bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CScreenshot">
+      <UniqueIdentifier>{10478484-dd40-4abb-8e9f-534c2a79ab06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMonitorProtocol">
+      <UniqueIdentifier>{add1961b-f28a-4826-ab86-4a27a6354ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CFileSave">
+      <UniqueIdentifier>{f8512a00-c019-4b86-8613-2a8f45582a3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="20170308_RemoteControlClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="20170308_RemoteControlClientDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyRecv\CKeyRecv.h">
+      <Filter>CKeyRecv</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTime\CMyTime.h">
+      <Filter>CMyTime</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyCriticalSection\CMyCriticalSection.hpp">
+      <Filter>CMyCriticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="CThread\CThread.h">
+      <Filter>CThread</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPTCP\UDPTCP.h">
+      <Filter>UDPTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="iconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBrowseDlg\CBrowseDlg.h">
+      <Filter>CBrowseDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CScreenshot\CScreenshot.h">
+      <Filter>CScreenshot</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonitorProtocol\CMonitorProtocol.h">
+      <Filter>CMonitorProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileSave\CFileSave.h">
+      <Filter>CFileSave</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="20170308_RemoteControlClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="20170308_RemoteControlClientDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyRecv\CKeyRecv.cpp">
+      <Filter>CKeyRecv</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTime\CMyTime.cpp">
+      <Filter>CMyTime</Filter>
+    </ClCompile>
+    <ClCompile Include="CThread\CThread.cpp">
+      <Filter>CThread</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPTCP\UDPTCP.cpp">
+      <Filter>UDPTCP</Filter>
+    </ClCompile>
+    <ClCompile Include="CBrowseDlg\CBrowseDlg.cpp">
+      <Filter>CBrowseDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CScreenshot\CScreenshot.cpp">
+      <Filter>CScreenshot</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonitorProtocol\CMonitorProtocol.cpp">
+      <Filter>CMonitorProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileSave\CFileSave.cpp">
+      <Filter>CFileSave</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="20170308_RemoteControlClient.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My20170308_RemoteControlClient.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\20170308_RemoteControlClient.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
